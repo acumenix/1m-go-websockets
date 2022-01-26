@@ -1,4 +1,6 @@
 # Going Infinite, handling 1M websockets connections in Go
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/d6cf88d1-0386-4799-8c63-848ad33b5c4e.svg?orgId=443099491985)](https://app.soluble.cloud/repos/details/github.com/acumenix/1m-go-websockets?orgId=443099491985)  
 This repository holds the complete implementation of the examples seen in Gophercon Israel talk, 2019.
 
 It doesnt intend or claim to serve as a better, more optimal implementation than other libraries that implements the websocket protocol, it simply shows a set of tools, all combined together to demonstrate a server written in pure Go that is able to serve more than a million websockets connections with less than 1GB of ram.
